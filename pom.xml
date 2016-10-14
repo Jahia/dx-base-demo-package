@@ -44,7 +44,7 @@
         please contact the sales department at sales@jahia.com.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>jahia-packages-parent</artifactId>
@@ -53,7 +53,7 @@
     </parent>
     <artifactId>dx-base-demo-package</artifactId>
     <name>dx-base-demo-package</name>
-    <version>1.0</version>    
+    <version>1.1-SNAPSHOT</version>    
     <description>This is the custom module (dx-base-demo-package) for running on a Digital Experience Manager server.</description>
     <properties>
         <jahia.package.assembly.file>src/main/assembly/digitall.xml</jahia.package.assembly.file>
@@ -67,7 +67,7 @@
         <connection>scm:git:git@github.com:Jahia/dx-base-demo-package.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/dx-base-demo-package.git</developerConnection>
         <url>https://github.com/Jahia/dx-base-demo-package</url>
-        <tag>dx-base-demo-package-1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <repositories>
@@ -103,22 +103,22 @@
         <dependency>
             <groupId>org.jahia.modules</groupId>
             <artifactId>dx-base-demo-core</artifactId>
-            <version>1.0</version>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.jahia.modules</groupId>
             <artifactId>dx-base-demo-components</artifactId>
-            <version>1.0</version>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.jahia.modules</groupId>
             <artifactId>dx-base-demo-templates</artifactId>
-            <version>1.0</version>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.jahia.modules</groupId>
             <artifactId>digitall</artifactId>
-            <version>1.0</version>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <build>
