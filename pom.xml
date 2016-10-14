@@ -28,7 +28,7 @@
         GNU General Public License for more details.
 
         You should have received a copy of the GNU General Public License
-        along with this program. If not, see <http://www.gnu.org/licenses/>.
+        along with this program. If not, see <http://www.gnu.org/licenses />.
 
 
         2/ JSEL - Commercial and Supported Versions of the program
@@ -44,10 +44,7 @@
         please contact the sales department at sales@jahia.com.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>jahia-packages-parent</artifactId>
@@ -56,21 +53,21 @@
     </parent>
     <artifactId>dx-base-demo-package</artifactId>
     <name>dx-base-demo-package</name>
-    <version>1.0-SNAPSHOT</version>    
+    <version>1.0</version>    
     <description>This is the custom module (dx-base-demo-package) for running on a Digital Experience Manager server.</description>
     <properties>
         <jahia.package.assembly.file>src/main/assembly/digitall.xml</jahia.package.assembly.file>
         <jahia.package.sources.assembly.file>src/main/assembly/digitall-sources.xml</jahia.package.sources.assembly.file>
         <jahia.final.package.name>dx-base-demo-package</jahia.final.package.name>
         <jahia.manifest.package.id>dx-base-demo-package</jahia.manifest.package.id>
-        <jahia.manifest.description></jahia.manifest.description>
+        <jahia.manifest.description />
         <jahia.manifest.license>org.jahia.marketingFactory</jahia.manifest.license>
     </properties>
     <scm>
         <connection>scm:git:git@github.com:Jahia/dx-base-demo-package.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/dx-base-demo-package.git</developerConnection>
         <url>https://github.com/Jahia/dx-base-demo-package</url>
-        <tag>HEAD</tag>
+        <tag>dx-base-demo-package-1.0</tag>
     </scm>
 
     <repositories>
@@ -106,22 +103,22 @@
         <dependency>
             <groupId>org.jahia.modules</groupId>
             <artifactId>dx-base-demo-core</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.jahia.modules</groupId>
             <artifactId>dx-base-demo-components</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.jahia.modules</groupId>
             <artifactId>dx-base-demo-templates</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.jahia.modules</groupId>
             <artifactId>digitall</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
     <build>
